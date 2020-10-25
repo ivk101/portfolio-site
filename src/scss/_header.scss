@@ -1,0 +1,129 @@
+.header {
+	padding: 0;	
+	margin: 0;
+}
+.header__container {	
+	display: flex;
+	justify-content: space-between;				
+	padding-left: 20px;
+	padding-right: 20px;			
+}
+.open-menu {	
+	width: 24px;	
+	border: none;
+	background-image: url(../img/burger.png);
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}
+.header__open-menu {
+	margin-top: 30px;
+}
+.header-nav{
+	display: none;
+}
+.header-nav__item {
+	margin-right: 31px;			
+}
+.header-nav__link{
+	transition: all 0.3s;
+	color: #1f1f24;
+	font-size: 16px;			
+}
+.header-nav__link:hover {
+	padding-bottom: 3px;	
+	color: #f53f4f;
+	border-bottom: 1px solid #f53f4f;
+}
+.phone-number {		
+	color: #1f1f24;
+	font-weight: 700;
+    font-size: 18px;	
+}
+.header__phone-number {		
+    margin-top: 28px;
+    margin-left: -29px;		
+    transition: all 0.3s;
+}
+.phone-number:hover {
+	padding-bottom: 3px;	
+	color: #f53f4f;
+	border-bottom: 1px solid #f53f4f;
+}
+.phone-call {	    
+	padding: 12px;
+	border: 1px solid #f8207a;
+	border-radius: 50%;
+	background-image: url(../img/call-answer.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+.header__phone-call {	
+    margin-top: 27px;		
+}
+.phone-button {		
+	width: 207px;	
+	padding-top: 14px;
+	padding-bottom: 11px;
+	cursor: pointer;
+	text-align: center;	
+	color: #f53f4f;
+	border: 1px solid #f53f4f;	
+	font-size: 16px;
+}
+.header__phone-button {	
+	display: none;	
+	margin-top: 30px;	
+}
+
+
+@media (min-width: 768px) {
+	.header__container {			
+		padding-left: 40px;
+		padding-right: 40px;			
+	}
+	.open-menu {
+		width: 45px;			
+		background-size: 46px 32px;
+	}
+	.header__open-menu {
+		margin-top: 38px;	
+	}
+	.header__phone-number {
+		margin-top: 37px;
+		margin-left: auto;				
+	}
+	.phone-number {		
+		font-size: 25px;		
+	}
+	.header__phone-call {	
+		display: none;
+	}
+	.phone-button {	    	
+		background-color: transparent;
+	}
+	.header__phone-button {
+	        display: block;				
+		margin-left: 30px;			
+	}
+}
+@media (min-width: 1230px) {
+	.header__container {			
+		padding: 0;			
+	}
+	.open-menu {
+		display: none;
+	}
+	.header-nav{
+		display: flex;	
+		margin-top: 44px;		
+	}
+	.header__phone-button {
+	    margin-top: 30px;				
+		margin-left: 28px;
+		padding-top: 11px;		
+	}
+}
+
+
+
