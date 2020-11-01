@@ -58,8 +58,7 @@
 					</ul>
 				</nav>
 				<a href="#" class="phone-number header__phone-number">+7 (499) 995-55-77</a>
-				<button class="phone-call header__phone-call" aria-label="Заказать звонок"></button>
-				<button class="phone-button header__phone-button">Заказать звонок</button>
+				<button class="header__phone-call"><span class="header__phone-button">Заказать звонок</span></button>
 			</div>
 		</div>
 	</header>
@@ -109,33 +108,33 @@
 			<div class="works__container swiper-wrapper">				
 				<div class="works__item swiper-slide">
 					<img src="img/work1.jpg" class="works__image" alt="Пример работы 1">
-					<div class="works__text">Сайт психолога Веры Антоновой</div>
+					<p class="works__text">Сайт психолога Веры Антоновой</p>
 				</div>
 				<div class="works__item swiper-slide">
 					<img src="img/work2.jpg" class="works__image" alt="Пример работы 2">
-					<div class="works__text">Интернет-магазин детской одежды</div>
+					<p class="works__text">Интернет-магазин детской одежды</p>
 				</div>
 				<div class="works__item swiper-slide">
 					<img src="img/work3.jpg" class="works__image" alt="Пример работы 3">
-					<div class="works__text">Сайт магазина "Рыболов"</div>
+					<p class="works__text">Сайт магазина "Рыболов"</p>
 				</div>
 				<div class="works__item swiper-slide">
 					<img src="img/work2.jpg" class="works__image" alt="Пример работы 2">
-					<div class="works__text">Интернет-магазин детской одежды</div>
+					<p class="works__text">Интернет-магазин детской одежды</p>
 				</div>
 				<div class="works__item swiper-slide">
 					<img src="img/work3.jpg" class="works__image" alt="Пример работы 3">
-					<div class="works__text">Сайт магазина "Рыболов"</div>
+					<p class="works__text">Сайт магазина "Рыболов"</p>
 				</div>	
 				<div class="works__item swiper-slide">
 					<img src="img/work1.jpg" class="works__image" alt="Пример работы 1">
-					<div class="works__text">Сайт психолога Веры Антоновой</div>
+					<p class="works__text">Сайт психолога Веры Антоновой</p>
 				</div>			
 
 			</div>			
 				
-                <div class="swiper-button-prev navigation-left-button"></div>
-                <div class="swiper-button-next navigation-right-button"></div>
+                <button class="swiper-button-prev navigation-left-button"></button>
+                <button class="swiper-button-next navigation-right-button"></button>
 				<div class="swiper-pagination"></div>
 				
 			</div>
@@ -147,7 +146,7 @@
 		<section class="prices" id="prices">
 			<div class="fixed-container">
 				<h2 class="visually-hidden">Цены</h2>
-				<div class="prices__content">Адаптивная верстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.&nbsp;*</div>
+				<div class="prices__content">Адаптивная верстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</div>
 				<div class="prices__add-content">Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависмости от сложности задач</div><div class="prices__fly-tag prices__fly-tag_1">{ }</div>
 				<div class="prices__fly-tag prices__fly-tag_2">&lt;div&gt;</div>
 				<div class="prices__fly-tag prices__fly-tag_3">&lt;/&gt;</div>
@@ -186,17 +185,15 @@
 				</div>
 			</div>
 		</div>
-			<div class="footer__bottom">
-				<div class="fixed-container">
-				<p class="footer__text">&copy; Дмитрий Алексеев, 2016 - 2018</p>
-			</div>
+		<div class="footer__bottom">				
+			<p class="footer__text">&copy; Дмитрий Алексеев, 2016 - 2018</p>			
 		</div>
 
 	</footer>	
 	<div class="callback-modal closed">		
 		<button class="callback-modal__close" type="button">×</button>	
 		<h2 class="callback-modal__title">Заказать звонок</h2>
-		<form action="post" class="callback-modal__form">
+		<form class="callback-modal__form">
 			<label for="callback-name">Ваше Имя</label>
 			<input class="callback-modal__name" type="text" id="callback-name"><br>
 
@@ -210,7 +207,7 @@
 	<div class="feedback-modal closed">			
 		<button class="feedback-modal__close" type="button">×</button>	
 		<h2 class="feedback-modal__title">Обратная связь</h2>
-		<form method="post" class="feedback-modal__form">
+		<form class="feedback-modal__form">
 			<label for="feedback-name">Ваше Имя</label>
 			<input class="feedback-modal__name" type="text" id="feedback-name"><br>
 

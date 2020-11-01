@@ -83,4 +83,4 @@ gulp.task('clean', clean);
 gulp.task('watch', watch);
 
 gulp.task('dev', gulp.series('style', 'script', 'html', 'img', 'copy'));
-gulp.task('default', gulp.series('clean', 'dev'));
+gulp.task('default', gulp.series('clean', 'dev', 'watch'));

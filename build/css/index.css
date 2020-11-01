@@ -474,7 +474,8 @@ h1, h2, h3, h4, h5, h6, p {
   color: #f53f4f;
   border-bottom: 1px solid #f53f4f; }
 
-.phone-call {
+.header__phone-call {
+  margin-top: 27px;
   padding: 12px;
   border: 1px solid #f8207a;
   border-radius: 50%;
@@ -483,11 +484,10 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-position: center; }
 
-.header__phone-call {
-  margin-top: 27px; }
-
-.phone-button {
+.header__phone-button {
+  display: none;
   width: 207px;
+  margin-top: 30px;
   padding-top: 14px;
   padding-bottom: 11px;
   cursor: pointer;
@@ -495,10 +495,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #f53f4f;
   border: 1px solid #f53f4f;
   font-size: 16px; }
-
-.header__phone-button {
-  display: none;
-  margin-top: 30px; }
 
 @media (min-width: 768px) {
   .header__container {
@@ -515,12 +511,14 @@ h1, h2, h3, h4, h5, h6, p {
   .phone-number {
     font-size: 25px; }
   .header__phone-call {
-    display: none; }
-  .phone-button {
-    background-color: transparent; }
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none; }
   .header__phone-button {
     display: block;
-    margin-left: 30px; } }
+    margin-left: 30px;
+    background-color: transparent; } }
 
 @media (min-width: 1230px) {
   .header__container {
