@@ -65,7 +65,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.callback-modal').css('display', 'none');
+			$('.callback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});
@@ -81,7 +81,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.callback-modal').css('display', 'none');
+			$('.callback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});
@@ -97,7 +97,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.callback-modal').css('display', 'none');
+			$('.callback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});
@@ -115,7 +115,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.feedback-modal').css('display', 'none');
+			$('.feedback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});
@@ -131,7 +131,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.feedback-modal').css('display', 'none');
+			$('.feedback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});		
@@ -147,7 +147,7 @@ $(function(){
 		    $('body').removeClass('no-scroll');
 		});
 		$('.modal-overlay').click(function(){
-			$('.feedback-modal').css('display', 'none');
+			$('.feedback-modal').addClass('closed');
 		    $('.modal-overlay').css('display', 'none');
 		    $('body').removeClass('no-scroll');
 		});
